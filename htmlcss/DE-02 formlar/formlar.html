@@ -12,7 +12,14 @@
     <form action="./result.html">
       <div>
         <label for="ad">AD:</label> <br />
-        <input id="ad" type="text" placeholder="adinizi giriniz" required />
+        <input
+          id="ad"
+          type="text"
+          name="isim"
+          value=""
+          placeholder="adinizi giriniz"
+          required
+        />
       </div>
       <br />
 
@@ -21,6 +28,10 @@
         <input
           id="pass"
           type="password"
+          name="password"
+          value=""
+          minlength="4"
+          maxlength="8"
           placeholder="passwordunuzu giriniz"
           required
         />
