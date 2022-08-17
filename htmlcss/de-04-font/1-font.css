@@ -1,0 +1,19 @@
+.menu {
+  background-color: lightgray;
+  width: 250px;
+  text-align: center;
+  font-size: 48px;
+}
+.birinci {
+  background-color: black;
+  color: white;
+  font-family: "Fugaz One", cursive;
+  font-family: "Rubik Maze", cursive;
+}
+.aktif {
+  background-color: aqua;
+  font-family: "Aboreto";
+}
+div {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
