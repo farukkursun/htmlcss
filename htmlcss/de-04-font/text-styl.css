@@ -23,8 +23,8 @@ li {
 }
 .tatli {
   list-style-position: inside;
-  list-style-type: "🌜";
-  list-style-image: url(../);
+  /* list-style-type: "🌜"; */
+  
 }
 h3 {
   direction: rtl;

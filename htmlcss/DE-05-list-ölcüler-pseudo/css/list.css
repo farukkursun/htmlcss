@@ -1,0 +1,32 @@
+* {
+  font-family: "DynaPuff", cursive;
+}
+li {
+  background-color: gray;
+  color: red;
+}
+a {
+  color: orange;
+}
+.aktif {
+  background-color: black;
+}
+.aktif:hover {
+  background-color: pink;
+}
+li:hover {
+  background-color: red;
+  color: aqua;
+}
+a:hover {
+  color: blueviolet;
+}
+.list {
+  list-style-position: inside;
+  list-style-type: ;
+  /* imoji koy */
+}
+a {
+  text-decoration: none;
+  font-size: 25px;
+}
