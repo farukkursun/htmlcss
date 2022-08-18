@@ -1,0 +1,44 @@
+table {
+  border-collapse: collapse;
+}
+.liste tr:nth-child(odd) {
+  background-color: pink;
+  color: yellow;
+}
+.liste td:first-child {
+  font-weight: 900;
+  color: red;
+}
+.liste td:last-child {
+  font-style: italic;
+  color: blue;
+}
+.liste tr:nth-child(3) {
+  background-color: aqua;
+}
+.liste tr:nth-child(3)::after,
+.liste tr:nth-child(3)::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "🎗️";
+  color: green;
+}
+.liste tr::before,
+.liste tr::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "💛";
+  color: red;
+  font-size: 30px;
+}
+td:hover {
+  background-color: lightgreen;
+}
+.liste tr:hover {
+  background-color: gray;
+}
+
+.fa-cart-shopping {
+  color: orange;
+  font-size: 3em;
+}
