@@ -1,0 +1,31 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  color: purple;
+  text-decoration: line-through;
+  text-decoration: underline;
+  text-decoration: overline;
+  text-decoration-style: wavy;
+
+  text-transform: uppercase;
+
+  text-align: center;
+  word-spacing: 15px;
+  letter-spacing: 5px;
+}
+p {
+  text-indent: 20px;
+  line-height: 20px;
+}
+li {
+  background-color: lightgreen;
+}
+.tatli {
+  list-style-position: inside;
+  list-style-type: "🌜";
+  list-style-image: url(../);
+}
+h3 {
+  direction: rtl;
+}
