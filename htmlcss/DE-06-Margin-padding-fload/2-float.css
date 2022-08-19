@@ -1,0 +1,24 @@
+img {
+  width: 50%;
+  float: right;
+}
+.clear {
+  clear: right;
+}
+.box {
+  height: 2rem;
+  /* background-color: beige; */
+  float: left;
+}
+.box1 {
+  width: 20%;
+  background-color: pink;
+}
+.box2 {
+  width: 30%;
+  background-color: aqua;
+}
+.box3 {
+  width: 40%;
+  background-color: blueviolet;
+}
