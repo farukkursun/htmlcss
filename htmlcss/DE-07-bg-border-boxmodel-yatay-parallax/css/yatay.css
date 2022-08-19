@@ -16,3 +16,15 @@ a {
   padding: 1rem;
   width: 6rem;
 }
+a:active {
+  color: white;
+}
+a:hover {
+  background-color: aquamarine;
+}
+.acilir-menu ul {
+  display: none;
+}
+.acilir-menu:hover ul {
+  display: block;
+}
