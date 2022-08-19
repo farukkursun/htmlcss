@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+}
+.btn {
+  background-color: beige;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  padding: 1rem 2rem;
+}
+.sapan-btn {
+  background-color: burlywood;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  /* inline alt ust margin almaz sag sol alir */
+  /* inline elementlere padding verildiginde komsularininalanina tecavüz ediyor bu nedenle padding verilmez */
+}
+.new-btn {
+  background-color: crimson;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  width: 20vw;
+  margin-right: auto;
+  margin-left: auto;
+}
