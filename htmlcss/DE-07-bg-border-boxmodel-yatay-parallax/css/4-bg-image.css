@@ -1,0 +1,14 @@
+*{
+    text-align: center;
+    color: cyan;
+    margin: 0;
+}
+.bg{
+    background-image: url("../monalisa.jpeg");
+    height: 20rem;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: contain; */
+    background-position: top center;
+}
