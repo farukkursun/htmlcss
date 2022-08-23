@@ -1,0 +1,27 @@
+.box{
+border: 2px solid red;
+background-color: bisque;
+height: 80px;
+width: 320px;
+margin-bottom: 220px;
+
+}
+.first{
+    overflow: visible;
+}
+.second{
+    overflow: hidden;
+}
+.second:hover{
+    overflow: visible;
+}
+.third{
+    overflow: auto;
+}
+.fourth{
+    overflow: scroll;
+}
+.fifth{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
