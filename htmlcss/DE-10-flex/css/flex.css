@@ -1,0 +1,13 @@
+.container1 div{
+    background-color: tomato;
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+}
+.container1{
+    background-color: antiquewhite;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center ;
+}
