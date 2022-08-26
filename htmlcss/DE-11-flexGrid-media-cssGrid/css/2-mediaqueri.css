@@ -1,0 +1,95 @@
+@import "./variable.css";
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--ff-montserrat);
+  font-weight: 500;
+}
+body {
+  background-color: var(--mavi-10);
+}
+h1 {
+  background-color: var(--koyu-kirmizi);
+  border: 2px solid black;
+  border-radius: 50px;
+  width: 300px;
+  text-align: center;
+  margin: 1rem auto;
+  padding: 10px;
+}
+.header {
+  background-color: var(--koyu-yesil);
+  padding: 20px;
+  margin: 20px 0;
+}
+.navbar {
+  background-color: var(--gri-3);
+  text-align: end;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 15px 20px;
+}
+
+.col-1 {
+  background-color: var(--gri-5);
+  width: 35%;
+}
+.col-2 {
+  background-color: var(--gri-6);
+  width: 20%;
+}
+.col-3 {
+  background-color: var(--gri-7);
+  width: 30%;
+}
+.col-4 {
+  background-color: var(--gri-8);
+  width: 15%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col {
+  padding: 20px;
+  text-align: center;
+}
+/* üsteki stiller büyük ekranlarda kulanilsin, 
+ta ki 992px kadar, diger bir deyisle tablete kadar. 
+992px den sonra bir alltaki stiller kullanilsin */
+@media screen and (max-width:992px){
+    body{
+        background-color: var(--acik-kirmizi);
+        color: white;
+    }
+    .col{
+        width: 50%;
+        margin: 0.5rem 0;
+    }
+    
+}
+/* 576px kadar üssteki stiller kullanilacak 576px
+ altinda ise alltaki stiller kullanilacak */
+@media screen and (max-width:576px){
+    body{
+        background-color: var(--mor-1);
+    }
+    .header{
+        display: none;
+    }
+    .col{
+        width: 100%;
+    }
+    .navbar a{
+       display: block; 
+       text-align: center;
+    }
+    /* .navbar{
+        text-align: center;
+    }    */
+    
+}
+
