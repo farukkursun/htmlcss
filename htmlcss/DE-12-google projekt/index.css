@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+.header-left {
+  float: left;
+  padding: 1rem 1rem 0 1rem;
+}
+.header-rihgt {
+  float: right;
+  padding: 0.7rem 1rem 0 1rem;
+}
+ul li {
+  display: inline-block;
+}
+#header-kare {
+  /* tek bir child dikeyde ortalanacaksa child in kendisine verilri */
+  vertical-align: middle;
+  opacity: 0.4;
+
+}
+#header-kare:hover{
+    opacity: 1;
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+}
+a:hover{
+    text-decoration: underline;
+}
+.header button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  width: 4.5rem;
+  height: 2rem;
+  font-weight: 700;
+  border-radius: 2px;
+  /* cursor: pointer; */
+}
+.clear {
+    clear: both;
+
+}
+main{
+    text-align: center;
+    
+}
+.google-logo{
+margin-top: 7rem;
+width: 272px;
+height: 95px;
+
+    
+}
+.search-bar{
+    margin: 2rem auto;
+    width: 500px;
+    border: 1px solid #d3d3d3;
+    border-radius: 25px;
+    
+    
+}
+.input{
+    width: 80%;
+    border: none;
+    /* ilk etapta input un border igitsin */
+    outline: none;
+    /* input a veri girisi yapildigind aolusan border gitsin */
+    font-size: 16px;
+}
+.buyutec, .mikrofon{
+    vertical-align: middle;
+    /* bütün kardesleri ayni hizada ortalar */
+}
+
+.main-button-div button{
+    margin: 11px 4px;
+    padding: 11px 16px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+
+    
+}
+p a{color: blue;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 40px;
+    /* padding yerine tek kodla satirlarin arasini actik */
+    background-color: #f2f2f2;
+}
+.footer-country {
+  padding-left: 20px;
+  font-size: 14px;
+}
+.footer-bottom {
+  border-top: 1px solid #dadce0;
+}
+
+
+.footer-bottom-left {
+  padding-left: 20px;
+  float: left;
+}
+
+.footer-bottom-right {
+  float: right;
+  padding-right: 10px;
+}
