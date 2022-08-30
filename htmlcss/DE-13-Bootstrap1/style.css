@@ -1,0 +1,6 @@
+.baslik{
+    text-decoration: none;
+    color: blue !important;
+}
+/* css her türlü bootstrap in önüne gecer sadece bs important olanlarin önüne gecemez ancak 
+css de importtant koyarsak bi onunda önüne hecer */
