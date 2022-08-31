@@ -35,9 +35,9 @@
     <!-- container-fluid, herhangi bir cihazın tüm genişliğini kapsar, . container, en büyük görünüm alanlarında
          maksimum 1320 piksel genişliği kapsayacak şekilde ayarlanmıştır -->
 
-<h2>practise</h2>
-<div class="container-fluid text-white">
-    <div class="row">
+    <h2>practise</h2>
+    <div class="container-fluid text-white">
+      <div class="row">
         <div class="col-6 bg-success">6</div>
         <div class="col-6 bg-info">6</div>
         <div class="col-3 bg-primary">3</div>
@@ -48,8 +48,31 @@
         <div class="col-4 bg-warning">4</div>
         <div class="col-4 bg-danger">4</div>
         <div class="col-4 bg-primary">4</div>
+      </div>
     </div>
-</div>
-
+    <h2>COL-AUTO</h2>
+    <div class="container">
+      <div class="row h4">
+        <div class="col-auto bg-success">Java script</div>
+        <div class="col bg-warning">html</div>
+        <div class="col bg-danger">css</div>
+        <div class="col-2 bg-info">react</div>
+      </div>
+    </div>
+    <!-- auto icinde bulunan veriye göre büyüyor -->
+    <!-- auto=içeriği kadar, col=dağıtılan col ölçüsü varsa herkes alacağını 
+  alır artan eşit paylaşılır. col-2= 2 grid -->
+    <br />
+    <h1>Breakpoints</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-2 bg-warning">hello</div>
+        <div class="col-sm-6 col-md-4 col-lg-2 bg-danger">hello</div>
+        <div class="col-sm-12 col-md-4 col-lg-2 bg-info">hello</div>
+        <div class="col-sm-12 col-md-6 col-lg-2 bg-primary">hello</div>
+        <div class="col-sm-12 col-md-6 col-lg-2 bg-success">hello</div>
+        <div class="col-sm-12 col-md-12 col-lg-2 bg-secondary">hello</div>
+      </div>
+    </div>
   </body>
 </html>
